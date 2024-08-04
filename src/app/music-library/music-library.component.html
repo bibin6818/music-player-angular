@@ -1,0 +1,21 @@
+<div class="search-container">
+    <input
+      type="text"
+      placeholder="Search songs or artists..."
+      [(ngModel)]="searchTerm"
+    />
+  </div>
+  
+  <div class="song-list">
+    <div *ngFor="let song of searchSongs()" class="song-item">
+      <img [src]="song.coverImage" alt="{{ song.name }}" />
+      <div class="song-details">
+        <h3>{{ song.name }}</h3>
+        <p>{{ song.artist }}</p>
+        <p>{{ song.genre }}</p>
+        <p>{{ song.album }}</p>
+        <p>Popularity: {{ song.popularity }}</p>
+      </div>
+    </div>
+  </div>
+  

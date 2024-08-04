@@ -1,0 +1,21 @@
+[
+    {
+      "id": 1,
+      "name": "Song 1",
+      "artist": "Artist 1",
+      "genre": "Pop",
+      "album": "Album 1",
+      "coverImage": "https://i.postimg.cc/mgrCyp8f/good-times-with-bad-music-1050x700.webp",
+      "popularity": 8
+    },
+    {
+      "id": 2,
+      "name": "Song 2",
+      "artist": "Artist 2",
+      "genre": "Rock",
+      "album": "Album 2",
+      "coverImage": "https://i.postimg.cc/fbpcL774/Music-Streaming-Wars.jpg",
+      "popularity": 7
+    }
+  ]
+  
